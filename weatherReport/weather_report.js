@@ -1,6 +1,6 @@
 function showweatherDetails(event) { try{
     const city = document.getElementById('city').value;
-    const apiKey = '9ebf33dbce90a2c5aa8c6a9319899201'; // Replace 'YOUR_API_KEY' with your actual API key
+    const apiKey = ''; // Replace 'YOUR_API_KEY' with your actual API key
     const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${'Istanbul'}&appid=${'9ebf33dbce90a2c5aa8c6a9319899201'}&units=metric`;
     event.preventDefault();
     fetch(apiUrl)
